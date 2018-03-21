@@ -1,0 +1,201 @@
+
+
+/*************************
+
+
+.carephoto {
+	 width: 100%;
+	-webkit-border-radius: 50% !important;
+	 -moz-border-radius: 50% !important;
+	 border-radius: 50% !important;
+}
+***********************/
+
+
+/*************************
+hover effect
+***********************/
+
+.wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.contain {
+    position: relative;
+    width: 100%;
+}
+
+.philosophyphotos {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contain .philosophyphotos {
+  opacity: 0.3;
+}
+
+.contain .middle {
+  opacity: 1;
+}
+
+.contain:hover .middle {
+	display: none;
+}
+
+.contain:hover .philosophyphotos {
+	opacity: 1;
+}
+
+
+
+.text {
+  
+  color: black;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+
+
+
+
+
+
+/*************************
+NO GUTTERS
+***********************/
+
+/* Make sure images don't get too big */
+#philosophyphotos {
+  width: 100%;
+}
+
+/* no-gutters Class Rules */
+.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+
+
+
+
+.list-group-item {
+    
+    padding-left: 5%
+}
+
+.aboutbackground {
+	width: 100vw;
+	background-size: contain;
+}
+
+.rustyfloated {
+	background-size: contain;
+	width: 20vw;
+	padding: 10px;
+	margin: 10px;
+	padding-bottom: -1%;
+	border-style: groove;
+	border-width: 2px;
+}
+
+#carouselExampleSlidesOnly {
+
+	border-style: solid;
+	border-width: 2px;
+}
+
+
+
+/*************************
+Responsive banner
+***********************/
+
+@media (min-width: 1761px) {
+	.bannerlogo {
+		min-width: 100%;
+		
+	}
+}
+
+/*************************
+Nav Justify Right
+***********************/
+
+@media (min-width: 1150px){
+#mainnav
+	{
+		padding-left: 60%;
+	}
+}
+
+@media (max-width: 1150px){
+#mainnav
+	{
+		padding-left: 54%;
+	}
+}
+
+@media (max-width: 992px){
+#mainnav
+	{
+		padding-left: 44%;
+	}
+}
+
+/*************************
+Philosophy photos 
+***********************/
+
+@media (max-width: 849px) {
+	.text {
+		
+		font-size: 12px;
+		
+	}
+}
+
+@media (max-width: 600px) {
+	.text {
+		
+		font-size: 10px;
+		
+	}
+}
+
+@media (min-width: 1756px) { 
+	.wrapper {
+		width: 1000px;
+	}
+ }
+
+ 
+
+
+
+
+

@@ -1,0 +1,72 @@
+
+/* Horses mugshot  */
+ .card-img-top {
+
+	  max-width: 80%;
+	  padding-top: 3%;
+	  margin-left: auto;
+	  margin-right: auto;
+	   width: 100%;
+	-webkit-border-radius: 50% !important;
+	 -moz-border-radius: 50% !important;
+	 border-radius: 50% !important;
+}
+
+
+
+
+
+/*************************
+Responsive banner
+***********************/
+
+@media (min-width: 1761px) {
+	.bannerlogo {
+		min-width: 100%;
+		
+	}
+}
+
+	/*************************
+Nav Justify Right
+***********************/
+
+@media (min-width: 1150px){
+#mainnav
+	{
+		padding-left: 60%;
+	}
+}
+
+@media (max-width: 1150px){
+#mainnav
+	{
+		padding-left: 54%;
+	}
+}
+
+@media (max-width: 992px){
+#mainnav
+	{
+		padding-left: 44%;
+	}
+}
+
+
+
+
+
+
+@media (max-width: 992px){
+.archanova .fifthtitle
+	{
+		max-width: 100%;	
+	}
+}
+
+@media (max-width: 992px){
+ .card-img-top 
+	{
+		max-width: 350px;	
+	}
+}

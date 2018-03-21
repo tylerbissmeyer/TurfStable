@@ -1,0 +1,42 @@
+
+
+/*************************
+Responsive banner
+***********************/
+
+@media (min-width: 1761px) {
+	.bannerlogo {
+		min-width: 100%;
+		
+	}
+}
+
+#latestphoto {
+	border-style: solid;
+	border-width: 2px;
+}
+
+/*************************
+Nav Justify Right
+***********************/
+
+@media (min-width: 1150px){
+#mainnav
+	{
+		padding-left: 60%;
+	}
+}
+
+@media (max-width: 1150px){
+#mainnav
+	{
+		padding-left: 54%;
+	}
+}
+
+@media (max-width: 992px){
+#mainnav
+	{
+		padding-left: 44%;
+	}
+}

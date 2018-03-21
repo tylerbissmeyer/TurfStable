@@ -1,0 +1,88 @@
+
+
+#bannertext{
+
+	color: white;
+	font-weight: lighter;
+	text-align: center;
+	font-size: 30px;
+}
+
+.banner {
+	
+	background-repeat: no-repeat;
+	min-width: 100%;
+}
+
+.aboutbackground {
+	width: 100vw;
+	background-size: contain;
+}
+
+.horseicon {
+  color: #fff;
+  padding-left: 70%;
+  background: center no-repeat;
+  background-size: cover;
+  
+}
+
+.horsefloated {
+	background-size: contain;
+	width: 20vw;
+	padding: 10px;
+	margin: 10px;
+	border-style: groove;
+	border-width: 2px;
+}
+
+.mainparagraph {
+	display: inline;
+	margin-right: 40%;
+	
+
+}
+
+/*************************
+Responsive banner
+***********************/
+
+@media (min-width: 1761px) {
+	.bannerlogo {
+		min-width: 100%;
+		
+	}
+}
+
+@media (max-width: 524px) {
+	.horsefloated {
+		width: 40vw;
+		
+	}
+}
+
+/*************************
+Nav Justify Right
+***********************/
+
+@media (min-width: 1150px){
+#mainnav
+	{
+		padding-left: 60%;
+	}
+}
+
+@media (max-width: 1150px){
+#mainnav
+	{
+		padding-left: 54%;
+	}
+}
+
+@media (max-width: 992px){
+#mainnav
+	{
+		padding-left: 44%;
+	}
+}
+
