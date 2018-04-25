@@ -115,18 +115,17 @@ NO GUTTERS
 
 .rustyfloated {
 	background-size: contain;
-	width: 20vw;
+	max-width: 20vw;
 	padding: 10px;
 	margin: 10px;
 	padding-bottom: -1%;
-	border-style: groove;
-	border-width: 2px;
+	
+	
 }
 
 #carouselExampleSlidesOnly {
 
-	border-style: solid;
-	border-width: 2px;
+	
 }
 
 
@@ -171,6 +170,8 @@ Nav Justify Right
 Philosophy photos 
 ***********************/
 
+
+
 @media (max-width: 849px) {
 	.text {
 		
@@ -193,8 +194,39 @@ Philosophy photos
 	}
  }
 
+/*************************
+Rustyfloated photo 
+***********************/
  
+@media (min-width: 1752px){
+.rustyfloated
+	{
+		max-width: 17vw;
+}
 
+@media (min-width: 1886px){
+.rustyfloated
+	{
+		max-width: 14vw;
+}
+
+@media (min-width: 2090px){
+.rustyfloated
+	{
+		max-width: 12vw;
+}
+
+@media (min-width: 2299px){
+.rustyfloated
+	{
+		max-width: 10vw;
+}
+
+@media (min-width: 2612px){
+.rustyfloated
+	{
+		max-width: 8vw;
+}
 
 
 
